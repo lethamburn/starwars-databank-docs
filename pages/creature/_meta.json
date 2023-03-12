@@ -1,5 +1,14 @@
 {
   "schema": "Creature Schema",
   "getall": "Get all creatures",
-  "single": "Get a single creature"
+  "single": "Get a single creature",
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    }
+  }
 }

@@ -105,5 +105,14 @@
     "type": "page",
     "href": "https://github.com/lethamburn",
     "newWindow": true
+  },
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
   }
 }

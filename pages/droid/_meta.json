@@ -1,5 +1,14 @@
 {
   "schema": "Droid Schema",
   "getall": "Get all droids",
-  "single": "Get a single droid"
+  "single": "Get a single droid",
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    }
+  }
 }

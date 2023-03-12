@@ -1,5 +1,14 @@
 {
   "schema": "Character Schema",
   "getall": "Get all characters",
-  "single": "Get a single character"
+  "single": "Get a single character",
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    }
+  }
 }

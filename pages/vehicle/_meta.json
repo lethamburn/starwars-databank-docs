@@ -1,5 +1,14 @@
 {
   "schema": "Vehicle schema",
   "getall": "Get all vehicles",
-  "single": "Get a single vehicle"
+  "single": "Get a single vehicle",
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    }
+  }
 }

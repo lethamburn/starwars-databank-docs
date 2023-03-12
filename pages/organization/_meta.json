@@ -1,5 +1,14 @@
 {
   "schema": "Organization schema",
   "getall": "Get all organizations",
-  "single": "Get a single organization"
+  "single": "Get a single organization",
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    }
+  }
 }

@@ -1,5 +1,14 @@
 {
   "schema": "Specie schema",
   "getall": "Get all species",
-  "single": "Get a single specie"
+  "single": "Get a single specie",
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    }
+  }
 }
