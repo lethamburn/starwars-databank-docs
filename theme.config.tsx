@@ -33,6 +33,16 @@ const config: DocsThemeConfig = {
       </a>
     ),
   },
+  footer: {
+    text: (
+      <span>
+        {new Date().getFullYear()} ©{" "}
+        <a href="https://github.com/lethamburn" target="_blank">
+          lethamburn
+        </a>
+      </span>
+    ),
+  },
 };
 
 export default config;
