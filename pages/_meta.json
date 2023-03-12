@@ -1,11 +1,104 @@
 {
-  "index": "Introduction",
-  "info": "Info and Pagination",
-  "character": "Character",
-
+  "index": {
+    "title": "Introduction",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "info": {
+    "title": "Info and Pagination",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "character": {
+    "title": "Character",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "creature": {
+    "title": "Creature",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "droid": {
+    "title": "Droid",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "location": {
+    "title": "Location",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "organization": {
+    "title": "Organization",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "specie": {
+    "title": "Specie",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "vehicle": {
+    "title": "Vehicle",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
   "about": {
     "title": "About",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
   },
   "contact": {
     "title": "Contact ↗",
