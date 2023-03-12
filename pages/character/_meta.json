@@ -1,0 +1,5 @@
+{
+  "schema": "Character Schema",
+  "getall": "Get all characters",
+  "single": "Get a single character"
+}

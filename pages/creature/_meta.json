@@ -1,0 +1,5 @@
+{
+  "schema": "Creature Schema",
+  "getall": "Get all creatures",
+  "single": "Get a single creature"
+}

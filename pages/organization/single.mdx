@@ -1,0 +1,39 @@
+# Get a single organization
+
+## Get by a id
+
+You can get a single organization by adding the id as a parameter: /organizations/id
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/organizations/640b390d1b34fa26e6ba8ca0
+```
+
+```json
+{
+  "_id": "640b390d1b34fa26e6ba8ca0",
+  "name": "Death Watch",
+  "description": "The warrior clans of Mandalore were believed to have been wiped out ages ago, their tattered remnants exiled to the Concordia moon. But as the Clone Wars swept the galaxy, the treacherous governor Pre Vizsla resurrected the Mandalorians, and with them, their legendary combat armor that was feared across the galaxy. Backed by Count Dooku and the Separatists, Vizsla began building an army to retake Mandalore from the control of pacifists who were trying to bury violent Mandalore's past. As the coup became inopportune, Dooku abandoned the Death Watch. The warriors wandered the galaxy for a time, then helped conquer Mandalore as part of Darth Maul’s Shadow Collective. Maul then became Death Watch’s leader when he killed Pre Vizsla.",
+  "image": "https://lumiere-a.akamaihd.net/v1/images/Death-Watch_624f6efa.jpeg",
+  "__v": 0
+}
+```
+
+## Filter by name
+
+You can get some organizations by adding the name as a parameter with the added endpoint name: /organizations/name/OrganizationName
+
+```text /GET/ /Inferno%20Squad/
+GET https://starwars-databank-server.vercel.app/api/v1/organizations/name/Inferno%20Squad
+```
+
+```json
+[
+  {
+    "_id": "640b390d1b34fa26e6ba8cc6",
+    "name": "Inferno Squad",
+    "description": "A special forces unit within the Empire, Inferno Squad was formed by Admiral Garrick Versio following the destruction of the Death Star at Yavin 4. Led by Iden Versio, Inferno Squad exists to protect the Empire from similar catastrophes, to protect and bury its secrets, and eliminate threats to the safety of its citizens. Masters of infiltration, extraction, and combat in any environment, Inferno Squad is revered by those in the Empire who know their name, and feared by the few enemies its commandos has allowed to escape.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/inferno-squad2_44bc2423.jpeg",
+    "__v": 0
+  }
+]
+```

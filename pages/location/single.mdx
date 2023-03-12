@@ -1,0 +1,39 @@
+# Get a single location
+
+## Get by a id
+
+You can get a single location by adding the id as a parameter: /locations/id
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/locations/640b31523f2eff6f409a9edf
+```
+
+```json
+{
+  "_id": "640b31523f2eff6f409a9edf",
+  "name": "Ajan Kloss",
+  "description": "Originally scouted as a potential site for a Rebel Alliance base, at the behest of General Leia Organa Ajan Kloss served as a secluded outpost after the Battle of Endor, becoming a training ground for the Jedi Luke Skywalker. Years later, it serves a similar function as home of Resistance fighters and a place for Rey to continue her training.",
+  "image": "https://lumiere-a.akamaihd.net/v1/images/ajan-kloss-main_1cbd44e9.jpeg",
+  "__v": 0
+}
+```
+
+## Filter by name
+
+You can get some locations by adding the name as a parameter with the added endpoint name: /locations/name/LocationName
+
+```text /GET/ /Mustafar/
+GET https://starwars-databank-server.vercel.app/api/v1/locations/name/Mustafar
+```
+
+```json
+[
+  {
+    "_id": "640b31523f2eff6f409a9f94",
+    "name": "Mustafar",
+    "description": "A tiny, fiery planet in the Outer Rim, Mustafar maintains an erratic orbit between two gas giants. Mustafar is rich in unique and valuable minerals which have long been mined by the Tech Union. Its lava pits and rivers make this planet a dangerous habitat; its natives have burly, tough bodies that can withstand extreme heat. The planet became the backdrop for the fateful duel between Obi-Wan Kenobi and Anakin Skywalker. After the rise of the Empire, captured Jedi were brought to the volcanic world for interrogation and execution.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/databank_mustafar_01_169_5b470758.jpeg",
+    "__v": 0
+  }
+]
+```

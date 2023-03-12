@@ -1,0 +1,5 @@
+{
+  "schema": "Vehicle schema",
+  "getall": "Get all vehicles",
+  "single": "Get a single vehicle"
+}

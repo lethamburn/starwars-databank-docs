@@ -1,0 +1,29 @@
+# Get all droids
+
+You can access the list of droids by using the /droids endpoint.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/droids
+```
+
+```json
+{
+  "info": {
+    "total": 60,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/droids?page=2&limit=10",
+    "prev": null
+  },
+  "data": [
+    {
+      "_id": "640b304f916c6ff54731ed8a",
+      "name": "2-1B Droid",
+      "description": "2-1B droids were medical wonders, programmed to diagnose and treat injuries and diseases that afflicted millions of species in the galaxy. 2-1B droids had modular limbs that allowed them to use a range of surgical tools and other medical instruments based on their patients' needs.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/2-1b-droid-main-image_546a90ad.jpeg",
+      "__v": 0
+    }
+    //...
+  ]
+}
+```

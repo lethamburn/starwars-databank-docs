@@ -1,0 +1,5 @@
+{
+  "schema": "Specie schema",
+  "getall": "Get all species",
+  "single": "Get a single specie"
+}

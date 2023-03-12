@@ -1,0 +1,29 @@
+# Get all organizations
+
+You can access the list of organizations by using the /organizations endpoint.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/organizations
+```
+
+```json
+{
+  "info": {
+    "total": 135,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/organizations?page=2&limit=10",
+    "prev": null
+  },
+  "data": [
+    {
+      "_id": "640b390d1b34fa26e6ba8c83",
+      "name": "501st Legion",
+      "description": "Led by Captain Rex, the 501st Legion is a tight-knit squadron of clone troopers known for strength of character and unwavering loyalty. Upon being reunited with Ahsoka Tano, the men of the 501st show their allegiance to their former commander by altering their clone armor in an homage for her Togruta markings.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/501st-stormtroopers-main_525e6786.jpeg",
+      "__v": 0
+    }
+    //...
+  ]
+}
+```

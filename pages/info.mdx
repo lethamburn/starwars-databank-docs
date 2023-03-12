@@ -1,0 +1,77 @@
+# Info and Pagination
+
+## Information
+
+The API will automatically paginate the responses. You will receive up to 10 documents per page.
+
+Each resource contains an info object with information about the response.
+
+| Key   |  Type  |                                                Description |
+| :---- | :----: | ---------------------------------------------------------: |
+| total | number |                           The total length of the response |
+| page  | number |                                            The actual page |
+| limit | number |                        The actual number of items received |
+| next  | string |     Link to the next page (if it exists, if not it's null) |
+| prev  | string | Link to the previous page (if it exists, if not it's null) |
+
+## Example
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/characters
+```
+
+```json
+{
+  "info": {
+    "total": 952,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/characters?page=2&limit=10",
+    "prev": null
+  },
+  "data": [...]
+}
+```
+
+You can access different pages with the page parameter. If you don't specify any page, the first page will be shown.
+
+You can also specify the limit number, receiving the number of items that you need. For example, in order to access page 10 and a limit of 3 items per page add ?page=10&limit=3 to the end of the URL.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/characters?page=10&limit=3
+```
+
+```json
+{
+  "info": {
+    "total": 952,
+    "page": 10,
+    "limit": 3,
+    "next": "/api/v1/characters?page=11&limit=3",
+    "prev": "/api/v1/characters?page=9&limit=3"
+  },
+  "data": [
+    {
+      "_id": "640b2d19c916010a8aa5a87e",
+      "name": "Aftab Ackbar",
+      "description": "To uphold the legacy of his father, Admiral Gial Ackbar’s son, Aftab, now serves the Resistance as a Y-wing pilot. Beyond his family's close ties to rebel efforts, Aftab’s recruitment was part of a larger effort to bring more Mon Calamari aid to the cause.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/aftab-ackbar-main_3d257fbb.jpeg",
+      "__v": 0
+    },
+    {
+      "_id": "640b2d19c916010a8aa5a87f",
+      "name": "Agen Kolar",
+      "description": "A Zabrak Jedi Master, Agen Kolar was part of the Jedi strike team assembled by Mace Windu to rescue Obi-Wan Kenobi and other hostages taken by the Separatists on Geonosis. Kolar displayed his renowned skill with a lightsaber during the battle in the Geonosian arena, though his young Padawan died during the fighting. In the final days of the Clone Wars, Windu turned to Kolar again, calling on him, Saesee Tiin and Kit Fisto to arrest Supreme Chancellor Palpatine. Confronted by the Jedi, Palpatine threw off his guise and revealed himself as Darth Sidious. He ignited his crimson-bladed lightsaber and struck down Kolar.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-26_at_5_9f577251.png",
+      "__v": 0
+    },
+    {
+      "_id": "640b2d19c916010a8aa5a880",
+      "name": "Agent Del Meeko",
+      "description": "A versatile veteran of the Galactic Empire, Del Meeko witnessed the fall of the Jedi Order on Coruscant as a young boy. Del was so effective as a stormtrooper that he was chosen to serve as a shoretrooper on Scarif and eventually as chief engineer aboard a Star Destroyer. Del’s versatility was rewarded with recruitment into Inferno Squad, where he plays numerous roles: scout, sniper, pilot, intelligence officer, and whatever else Commander Iden Versio needs from him.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/agent-del-meeko_8f173763.jpeg",
+      "__v": 0
+    }
+  ]
+}
+```

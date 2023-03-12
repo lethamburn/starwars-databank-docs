@@ -1,0 +1,5 @@
+{
+  "schema": "Droid Schema",
+  "getall": "Get all droids",
+  "single": "Get a single droid"
+}

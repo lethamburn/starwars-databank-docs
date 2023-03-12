@@ -1,7 +1,8 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "info": "Info and Pagination",
+  "character": "Character",
+
   "about": {
     "title": "About",
     "type": "page"

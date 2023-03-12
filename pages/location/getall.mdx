@@ -1,0 +1,29 @@
+# Get all locations
+
+You can access the list of locations by using the /locations endpoint.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/locations
+```
+
+```json
+{
+  "info": {
+    "total": 312,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/locations?page=2&limit=10",
+    "prev": null
+  },
+  "data": [
+    {
+      "_id": "640b31523f2eff6f409a9ed8",
+      "name": "79's",
+      "description": "79’s was a bar located on Coruscant, particularly popular with clone troopers. While off duty, Republic soldiers would gather at the cantina to relax, drink, and blow off steam, often making rowdy toasts. When clone trooper Fives uncovered the conspiracy of Order 66, he went to 79’s in search of fellow soldier Kix, knowing that’s where his friend would most likely be.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/image_7f322dba.jpeg",
+      "__v": 0
+    }
+    //...
+  ]
+}
+```

@@ -1,0 +1,39 @@
+# Get a single vehicle
+
+## Get by a id
+
+You can get a single vehicle by adding the id as a parameter: /vehicles/id
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/vehicles/640b461338c013fc5603e9e3
+```
+
+```json
+{
+  "_id": "640b461338c013fc5603e9e3",
+  "name": "Anakin Skywalker's Podracer",
+  "description": "Built in secret by the young slave Anakin Skywalker, this shiny blue and silver Podracer was boasted to be the fastest ever to compete in the Boonta Eve Classic. It wasn't idle puffery by its creator -- when thrown into the cutthroat racing competition, this Podracer's performance gave Anakin the edge he needed to win the race and his freedom. Smaller and leaner than all the other competing Podracers, Anakin's vehicle follows the same basic design found throughout the sport: a small cockpit pulled by two high-powered engines. The engines are locked to each other via an energy binder, and durable control cables connect the engines to the cockpit.",
+  "image": "https://lumiere-a.akamaihd.net/v1/images/databank_anakinskywalkerspodracer_01_169_fe359d32.jpeg",
+  "__v": 0
+}
+```
+
+## Filter by name
+
+You can get some vehicles by adding the name as a parameter with the added endpoint name: /vehicles/name/VehicleName
+
+```text /GET/ /X-wing%20Starfighter/
+GET https://starwars-databank-server.vercel.app/api/v1/vehicles/name/X-wing%20Starfighter
+```
+
+```json
+[
+  {
+    "_id": "640b461338c013fc5603eade",
+    "name": "X-wing Starfighter",
+    "description": "The X-wing is a versatile Rebel Alliance starfighter that balances speed with firepower. Armed with four laser cannons and two proton torpedo launchers, the X-wing can take on anything the Empire throws at it. Nimble engines give the X-wing an edge during dogfights, and it can make long-range jumps with its hyperdrive and its astromech droid co-pilot. Luke Skywalker is famous for destroying the Death Star behind the controls of an X-wing.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/X-Wing-Fighter_47c7c342.jpeg",
+    "__v": 0
+  }
+]
+```

@@ -1,0 +1,5 @@
+{
+  "schema": "Location Schema",
+  "getall": "Get all locations",
+  "single": "Get a single location"
+}

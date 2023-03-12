@@ -1,0 +1,29 @@
+# Get all species
+
+You can access the list of species by using the /species endpoint.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/species
+```
+
+```json
+{
+  "info": {
+    "total": 82,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/species?page=2&limit=10",
+    "prev": null
+  },
+  "data": [
+    {
+      "_id": "640b44d4a1996bc1b0f1c2d5",
+      "name": "Abednedo",
+      "description": "A gregarious and clever species, Abednedos are common sights in the galaxy, pursuing a range of professions on many planets. They hail from a planet of the same name, which is noted for its sprawling, colorful and chaotic cities. After the Battle of Endor, the Empire attacked Abednedo with a climate-disruption array; as a result, many Abednedos support the New Republic or the Resistance. Their native language is Abednedish, though many speak Basic.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/tlj-abednedo-databank-main-image_bd8babfb.jpeg",
+      "__v": 0
+    }
+    //...
+  ]
+}
+```

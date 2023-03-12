@@ -1,0 +1,29 @@
+# Get all characters
+
+You can access the list of characters by using the /characters endpoint.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/characters
+```
+
+```json
+{
+  "info": {
+    "total": 952,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/characters?page=2&limit=10",
+    "prev": null
+  },
+  "data": [
+    {
+      "_id": "640b2d19c916010a8aa5a86c",
+      "name": "Aayla Secura",
+      "description": "With an athletic build, an exotic beauty, and blue skin, Aayla Secura stood out among the many faces of the Jedi ranks. A cunning warrior and Jedi Knight during the rise of the Clone Wars, Aayla fought alongside Clone Commander Bly on many exotic battlefields. Having mastered the emotional detachment necessary in the Jedi Order, she always tried to pass on what she had learned to others. Aayla was killed, along with many other Jedi Generals, when her troops turned on her in reaction to Supreme Chancellor Palpatine’s broadcast of Order 66.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/databank_aaylasecura_01_169_39a65af2.jpeg",
+      "__v": 0
+    }
+    //...
+  ]
+}
+```

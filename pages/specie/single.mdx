@@ -1,0 +1,39 @@
+# Get a single specie
+
+## Get by a id
+
+You can get a single specie by adding the id as a parameter: /species/id
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/species/640b44d4a1996bc1b0f1c2e8
+```
+
+```json
+{
+  "_id": "640b44d4a1996bc1b0f1c2e8",
+  "name": "Dathomirian",
+  "description": "Inhabitants of the planet Dathomir. The Dathomirian Zabrak males, known as the Nightbrothers, are easily identifiable by the intimidating crown of horns around their head, as well as the distinct markings on their skin. The females, known as Nightsisters, have pale skin and are known to be powerful witches.",
+  "image": "https://lumiere-a.akamaihd.net/v1/images/databank_dathomirian_01_169_7cb460fd.jpeg",
+  "__v": 0
+}
+```
+
+## Filter by name
+
+You can get some species by adding the name as a parameter with the added endpoint name: /species/name/SpecieName
+
+```text /GET/ /Wookiee/
+GET https://starwars-databank-server.vercel.app/api/v1/species/name/Wookiee
+```
+
+```json
+[
+  {
+    "_id": "640b44d4a1996bc1b0f1c325",
+    "name": "Wookiee",
+    "description": "Shaggy giants from an arboreal world, the tall and commanding Wookiee species is an impressive sight to even the most jaded spacer. Despite their fearsome and savage countenance, Wookiees are intelligent, sophisticated, loyal and trusting. Loyalty and bravery are near-sacred tenets in Wookiee society. When peaceful, Wookiees are tender and gentle. Their tempers, however, are short; when angered, Wookiees can fly into a berserker rage and will not stop until the object of their distemper is sufficiently destroyed.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/wookiees-main-b_fc850c5b.jpeg",
+    "__v": 0
+  }
+]
+```

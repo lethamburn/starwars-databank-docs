@@ -1,0 +1,39 @@
+# Get a single character
+
+## Get by a id
+
+You can get a single character by adding the id as a parameter: /characters/id
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/characters/640b2d19c916010a8aa5a88e
+```
+
+```json
+{
+  "_id": "640b2d19c916010a8aa5a88e",
+  "name": "Anakin Skywalker",
+  "description": "Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever. Some even believed he was the prophesied Chosen One who would bring balance to the Force. Always pushing the limits of his Jedi training, seeking to excel and live up to his reputation, Skywalker's passion often brought him into conflict with his mentor, Jedi Master Obi-Wan Kenobi. A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall.",
+  "image": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_0326586e.png",
+  "__v": 0
+}
+```
+
+## Filter by name
+
+You can get some characters by adding the name as a parameter with the added endpoint name: /characters/name/CharacterName
+
+```text /GET/ /Plo%20Koon/
+GET https://starwars-databank-server.vercel.app/api/v1/characters/name/Plo%20Koon
+```
+
+```json
+[
+  {
+    "_id": "640b2d19c916010a8aa5aaf8",
+    "name": "Plo Koon",
+    "description": "A Kel Dor from Dorin, Plo Koon was among the wisest members of the Jedi Order, respected for his level-headed analysis of events and unflappable calm. Deeply concerned for life in all its myriad forms, Plo was especially devoted to protecting the clones under his command. He shared a special bond with Ahsoka Tano, whom he’d brought to the Jedi Order as a toddler. One of many victims of Order 66, Master Plo died at Cato Neimoidia when his wingmen shot down his starfighter.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/databank_plokoon_01_169_92e6679c.jpeg",
+    "__v": 0
+  }
+]
+```

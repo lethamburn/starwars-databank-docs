@@ -1,0 +1,39 @@
+# Get a single droid
+
+## Get by a id
+
+You can get a single droid by adding the id as a parameter: /droids/id
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/droids/640b304f916c6ff54731edb2
+```
+
+```json
+{
+  "_id": "640b304f916c6ff54731edb2",
+  "name": "Pit Droid",
+  "description": "Podracing is extremely dangerous, as is maintaining the speedy vehicles. In the hectic pace of a race, safety comes in second place to winning. As such, the cheap and expendable pit droids often bolt out onto the racetrack to repair still cycling superheated engines with no regard to their personal safety.    When not in use, pit droids fold up into a compact package. They spring to activation when needed. A tap on the nose signals the droid to collapse back into stowed mode and rest.",
+  "image": "https://lumiere-a.akamaihd.net/v1/images/pit-droids-main_8b5d6bda.jpeg",
+  "__v": 0
+}
+```
+
+## Filter by name
+
+You can get some droids by adding the name as a parameter with the added endpoint name: /droids/name/DroidName
+
+```text /GET/ /Pit%20Droid/
+GET https://starwars-databank-server.vercel.app/api/v1/droids/name/Pit%20Droid
+```
+
+```json
+[
+  {
+    "_id": "640b304f916c6ff54731edb2",
+    "name": "Pit Droid",
+    "description": "Podracing is extremely dangerous, as is maintaining the speedy vehicles. In the hectic pace of a race, safety comes in second place to winning. As such, the cheap and expendable pit droids often bolt out onto the racetrack to repair still cycling superheated engines with no regard to their personal safety.    When not in use, pit droids fold up into a compact package. They spring to activation when needed. A tap on the nose signals the droid to collapse back into stowed mode and rest.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/pit-droids-main_8b5d6bda.jpeg",
+    "__v": 0
+  }
+]
+```

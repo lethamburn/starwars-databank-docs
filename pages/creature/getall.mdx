@@ -1,0 +1,29 @@
+# Get all creatures
+
+You can access the list of creatures by using the /creatures endpoint.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/creatures
+```
+
+```json
+{
+  "info": {
+    "total": 75,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/creatures?page=2&limit=10",
+    "prev": null
+  },
+  "data": [
+    {
+      "_id": "640b2f06b6a2a8104f0a0d6d",
+      "name": "Acklay",
+      "description": "A surprisingly agile fury of sharp claws and pointed fangs, the vicious acklay was one of the three arena creatures unleashed in the Geonosian execution arena, dispatched to kill Anakin Skywalker, Padme Amidala, and Obi-Wan Kenobi. The Geonosian picadors steered the acklay toward Obi-Wan, who was able to outmaneuver the beast. A clumsy yet powerful strike from one of its claws sheered the chains that bound Kenobi. The beast continued to pursue the Jedi Knight, rending large holes in the hard-packed sand with its vicious stabs. It even shrugged off a pike attack, chomping through the offending polearm with bestial rage.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/databank_acklay_01_169_e544124f.jpeg",
+      "__v": 0
+    }
+    //...
+  ]
+}
+```

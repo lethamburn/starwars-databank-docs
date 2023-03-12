@@ -1,0 +1,39 @@
+# Get a single creature
+
+## Get by a id
+
+You can get a single creature by adding the id as a parameter: /creatures/id
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/creatures/640b2f06b6a2a8104f0a0d9d
+```
+
+```json
+{
+  "_id": "640b2f06b6a2a8104f0a0d9d",
+  "name": "Porg",
+  "description": "Small, flat-muzzled avians that flock about the rocks and roost in the cliffs of Luke Skywalker's secluded island, porgs are inquisitive creatures.",
+  "image": "https://lumiere-a.akamaihd.net/v1/images/porg-main_16933d3b.jpeg",
+  "__v": 0
+}
+```
+
+## Filter by name
+
+You can get some creatures by adding the name as a parameter with the added endpoint name: /creatures/name/CreatureName
+
+```text /GET/ /Porg/
+GET https://starwars-databank-server.vercel.app/api/v1/creatures/name/Porg
+```
+
+```json
+[
+  {
+    "_id": "640b2f06b6a2a8104f0a0d9d",
+    "name": "Porg",
+    "description": "Small, flat-muzzled avians that flock about the rocks and roost in the cliffs of Luke Skywalker's secluded island, porgs are inquisitive creatures.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/porg-main_16933d3b.jpeg",
+    "__v": 0
+  }
+]
+```

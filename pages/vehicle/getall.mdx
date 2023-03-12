@@ -1,0 +1,29 @@
+# Get all vehicles
+
+You can access the list of vehicles by using the /vehicles endpoint.
+
+```text /GET/
+GET https://starwars-databank-server.vercel.app/api/v1/vehicles
+```
+
+```json
+{
+  "info": {
+    "total": 266,
+    "page": 1,
+    "limit": 10,
+    "next": "/api/v1/vehicles?page=2&limit=10",
+    "prev": null
+  },
+  "data": [
+    {
+      "_id": "640b461338c013fc5603e9dd",
+      "name": "A-wing Fighter",
+      "description": "With its sleek arrowhead shape, streamlined cockpit, and massive twin engines, the A-wing starfighter suggests raw speed even when parked within Alliance hangar bays. Faster than even the TIE interceptor, the A-wing is well suited for lightning strikes. It sports a pair of pivoting laser cannons on each wingtip. The starfighters of Green Squadron, which flew in the Battle of Endor, were made up of A-wing starfighters. The A-wing continued to evolve, and was part of the Resistance’s starfighter corps during its fight against the First Order.",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-26_at_5_16a39e17.png",
+      "__v": 0
+    }
+    //...
+  ]
+}
+```
