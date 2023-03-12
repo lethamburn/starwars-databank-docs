@@ -1,9 +1,12 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
-import { useRouter } from "next/router";
-import { useConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s – SWD",
+    };
+  },
   faviconGlyph: "🌌",
   logo: (
     <>
@@ -14,7 +17,7 @@ const config: DocsThemeConfig = {
         height="24"
       />
       <span style={{ marginLeft: ".5em", fontWeight: 800 }}>
-        Star Wars Databank
+        STAR WARS DATABANK
       </span>
     </>
   ),
