@@ -3,90 +3,90 @@
     "title": "Introduction",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "info": {
     "title": "Info and Pagination",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "character": {
     "title": "Character",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "creature": {
     "title": "Creature",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "droid": {
     "title": "Droid",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "location": {
     "title": "Location",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "organization": {
     "title": "Organization",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "specie": {
     "title": "Specie",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "vehicle": {
     "title": "Vehicle",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
-      "pagination": false
+      "pagination": true
     }
   },
   "about": {
@@ -94,7 +94,7 @@
     "type": "page",
     "theme": {
       "breadcrumb": false,
-      "footer": false,
+      "footer": true,
       "sidebar": true,
       "toc": false,
       "pagination": false
