@@ -7,7 +7,6 @@ const config: DocsThemeConfig = {
       titleTemplate: "%s – SWD",
     };
   },
-  faviconGlyph: "🌌",
   logo: (
     <>
       <img
