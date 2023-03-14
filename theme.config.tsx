@@ -6,8 +6,8 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="title" content="Star Wars Databank" />
-      <meta property="description" content="Star Wars Databank API" />
+      <meta name="title" content="Star Wars Databank" />
+      <meta name="description" content="Star Wars Databank API" />
     </>
   ),
   useNextSeoProps() {
