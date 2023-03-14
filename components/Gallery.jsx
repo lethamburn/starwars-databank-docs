@@ -13,30 +13,38 @@ const StyledArticle = styled.article`
   height: 250px;
   display: flex;
   overflow: hidden;
-  gap: 1rem;
-  padding: 1rem;
-  background-color: #282829;
-  border-radius: 10px;
+  background-color: #1d1e1f;
+  border-radius: 8px;
 
   img {
     height: 100%;
-    width: 200px;
+    width: 250px;
     object-fit: cover;
     object-position: top;
+  }
+
+  div {
+    padding: 0.5rem 1rem;
+  }
+
+  div > img {
+    width: 40px;
+    height: auto;
   }
 
   h2 {
     text-transform: uppercase;
     font-weight: bolder;
-    color: #e69500;
+    white-space: nowrap;
+    font-size: 0.9rem;
   }
 
   h3 {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     text-align: justify;
     overflow: hidden;
     position: relative;
-    height: 88%;
+    height: 70%;
   }
 
   h3::after {
@@ -44,9 +52,9 @@ const StyledArticle = styled.article`
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 0.7rem;
+    height: 1rem;
     width: 100%;
-    background: linear-gradient(90deg, #2828296f, #282829);
+    background: linear-gradient(180deg, #2828296f, #282829);
   }
 `;
 
@@ -72,6 +80,7 @@ const Gallery = () => {
           <StyledArticle>
             <img src={char.image} alt={char.name} />
             <div>
+              <img src="/images/light.png" alt="Light icon" />
               <h2>{char.name}</h2>
               <h3>{char.description}</h3>
             </div>
