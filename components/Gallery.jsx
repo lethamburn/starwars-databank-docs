@@ -41,6 +41,7 @@ const StyledArticle = styled.article`
   background-color: #1d1e1f;
   border-radius: 8px;
   margin: 1rem;
+  color: whitesmoke;
 
   div {
     padding: 0.5rem 0;
