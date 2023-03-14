@@ -93,7 +93,7 @@ const Gallery = () => {
     <StyledGallery>
       {loaded ? (
         characters.map((char) => (
-          <StyledArticle>
+          <StyledArticle key={char._id}>
             <Image
               src={char.image}
               alt={char.name}
