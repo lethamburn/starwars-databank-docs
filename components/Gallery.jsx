@@ -4,8 +4,33 @@ import styled from "styled-components";
 const StyledGallery = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
+`;
+
+const Spinner = styled.div`
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  :after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 `;
 
 const StyledArticle = styled.article`
@@ -24,12 +49,13 @@ const StyledArticle = styled.article`
   }
 
   div {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
   }
 
   div > img {
     width: 40px;
     height: auto;
+    padding-left: 4px;
   }
 
   h2 {
@@ -37,6 +63,7 @@ const StyledArticle = styled.article`
     font-weight: bolder;
     white-space: nowrap;
     font-size: 0.9rem;
+    padding: 0 0.5rem;
   }
 
   h3 {
@@ -44,7 +71,8 @@ const StyledArticle = styled.article`
     text-align: justify;
     overflow: hidden;
     position: relative;
-    height: 70%;
+    height: 80%;
+    padding: 0 0.5rem;
   }
 
   h3::after {
@@ -54,7 +82,7 @@ const StyledArticle = styled.article`
     right: 0;
     height: 1rem;
     width: 100%;
-    background: linear-gradient(180deg, #2828296f, #282829);
+    background: linear-gradient(180deg, #1d1e1f6f, #1d1e1f);
   }
 `;
 
@@ -87,7 +115,7 @@ const Gallery = () => {
           </StyledArticle>
         ))
       ) : (
-        <h2>Loading...</h2>
+        <Spinner />
       )}
     </StyledGallery>
   );
