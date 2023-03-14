@@ -7,6 +7,10 @@ const config: DocsThemeConfig = {
       titleTemplate: "Star Wars Database - %s ",
     };
   },
+  project: {
+    link: "https://github.com/lethamburn/starwars-databank-docs",
+    icon: <img src="images/bb8.png" alt="BB8 icon" width="35" />,
+  },
   logo: (
     <>
       <img
@@ -20,9 +24,6 @@ const config: DocsThemeConfig = {
       </span>
     </>
   ),
-  project: {
-    link: "https://github.com/lethamburn/starwars-databank-v2",
-  },
   primaryHue: 39,
   banner: {
     key: "2.0-release",
