@@ -1,18 +1,14 @@
 import Gallery from "../components/Gallery.jsx";
+import Divider from "../components/Divider.jsx";
 
 # Introduction
 
+<Divider />
 ![Star Wars Celebration Banner](/images/banner.jpg "Star Wars Celebration Banner")
 
 This documentation will help you get familiar with the resources of the Star Wars Databank API and show you how to make different queries.
 
 ## Demo
-
-```
-fetch(
-  "https://starwars-databank-server.vercel.app/api/v1/characters?page=39&limit=6"
-);
-```
 
 <Gallery />
 
@@ -22,7 +18,7 @@ fetch(
 
 ## Data
 
-| Type          | Quantity |                                                    Main Endpoint |
+| Type          | Quantity |                                                         Endpoint |
 | :------------ | :------: | ---------------------------------------------------------------: |
 | Characters    |   952    |    https://starwars-databank-server.vercel.app/api/v1/characters |
 | Creatures     |    75    |    https://starwars-databank-server.vercel.app/api/v1/creatures/ |
