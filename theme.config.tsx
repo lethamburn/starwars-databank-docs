@@ -60,16 +60,6 @@ const config: DocsThemeConfig = {
       </span>
     ),
   },
-  head: (
-    <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Star Wars Databank" />
-      <meta
-        property="og:description"
-        content="The Star Wars Databank API is a REST API based on the galatic saga Star Wars. You will have access to hundreds of characters, droids, species, locations, organizations, vehicles and more. The Star Wars Databank API is filled with the official information from the Databank."
-      />
-    </>
-  ),
 };
 
 export default config;
