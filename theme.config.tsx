@@ -4,7 +4,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
-      titleTemplate: "%s – SWD",
+      titleTemplate: "Star Wars Database - %s ",
     };
   },
   logo: (

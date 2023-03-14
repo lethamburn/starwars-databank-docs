@@ -1,8 +1,20 @@
+import Gallery from "../components/Gallery.jsx";
+
 # Introduction
 
 ![Star Wars Celebration Banner](/images/banner.jpg "Star Wars Celebration Banner")
 
 This documentation will help you get familiar with the resources of the Star Wars Databank API and show you how to make different queries.
+
+## Demo
+
+```js
+fetch(
+  "https://starwars-databank-server.vercel.app/api/v1/characters?page=39&limit=6"
+);
+```
+
+<Gallery />
 
 ## Main endpoint
 
@@ -19,3 +31,7 @@ This documentation will help you get familiar with the resources of the Star War
 | Organizations |   135    | https://starwars-databank-server.vercel.app/api/v1/organizations |
 | Species       |    82    |       https://starwars-databank-server.vercel.app/api/v1/species |
 | Vehicles      |   266    |      https://starwars-databank-server.vercel.app/api/v1/vehicles |
+
+```
+
+```
