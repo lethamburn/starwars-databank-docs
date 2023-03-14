@@ -41,8 +41,8 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <Image
-        src="/images/jedi_symbol.svg"
-        alt="Jedi symbol"
+        src="/images/logo.png"
+        alt="Star Wars Databank logo"
         width={24}
         height={24}
         priority
