@@ -1,5 +1,6 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import Image from "next/image";
 
 const config: DocsThemeConfig = {
   useNextSeoProps() {
@@ -9,15 +10,24 @@ const config: DocsThemeConfig = {
   },
   project: {
     link: "https://github.com/lethamburn/starwars-databank-docs",
-    icon: <img src="images/bb8.png" alt="BB8 icon" width="35" />,
+    icon: (
+      <Image
+        src="/images/bb8.png"
+        alt="BB8 icon"
+        width={35}
+        height={35}
+        priority
+      />
+    ),
   },
   logo: (
     <>
-      <img
+      <Image
         src="/images/jedi_symbol.svg"
         alt="Jedi symbol"
-        width="24"
-        height="24"
+        width={24}
+        height={24}
+        priority
       />
       <span style={{ marginLeft: ".5em", fontWeight: 800 }}>
         STAR WARS DATABANK
@@ -46,7 +56,6 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="robots" content="all" />
       <meta property="og:title" content="Star Wars Databank" />
       <meta
         property="og:description"

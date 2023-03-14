@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-google-site-verification=G5EB9uws-Q7chbOJMaqYuRgm0ATwUr47lbbxsi1aH00
