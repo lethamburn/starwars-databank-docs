@@ -7,4 +7,8 @@ module.exports = withNextra({
   images: {
     domains: ["lumiere-a.akamaihd.net"],
   },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
 });

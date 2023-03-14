@@ -3,6 +3,13 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import Image from "next/image";
 
 const config: DocsThemeConfig = {
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="title" content="Star Wars Databank" />
+      <meta property="description" content="Star Wars Databank API" />
+    </>
+  ),
   useNextSeoProps() {
     return {
       titleTemplate: "Star Wars Database - %s ",

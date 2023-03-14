@@ -6,7 +6,6 @@ const StyledGallery = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
 `;
 
 const Spinner = styled.div`
@@ -35,12 +34,13 @@ const Spinner = styled.div`
 `;
 
 const StyledArticle = styled.article`
-  width: 400px;
+  width: 450px;
   height: 250px;
   display: flex;
   overflow: hidden;
   background-color: #1d1e1f;
   border-radius: 8px;
+  margin: 1rem;
 
   div {
     padding: 0.5rem 0;
@@ -80,7 +80,7 @@ const Gallery = () => {
 
   useEffect(() => {
     fetch(
-      "https://starwars-databank-server.vercel.app/api/v1/characters?page=39&limit=6"
+      "https://starwars-databank-server.vercel.app/api/v1/characters?page=80&limit=1"
     )
       .then((res) => res.json())
       .then((res) => {
