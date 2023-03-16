@@ -7,8 +7,8 @@ const config: DocsThemeConfig = {
     <>
       <meta
         name="google-site-verification"
-        content="G5EB9uws-Q7chbOJMaqYuRgm0ATwUr47lbbxsi1aH00"
-      ></meta>
+        content="znqL_OsBnLSWCaL3_C4ff5ltmGiqBGFlXi7UtMIIUqw"
+      />
     </>
   ),
   useNextSeoProps() {
@@ -19,10 +19,6 @@ const config: DocsThemeConfig = {
         "The Star Wars Databank API is a REST API based on the galatic saga Star Wars. You will have access to hundreds of characters, droids, species, locations, organizations, vehicles and more. The Star Wars Databank API is filled with the official information from the Databank.",
       canonical: "https://starwars-databank.vercel.app/",
       openGraph: {
-        url: "https://starwars-databank.vercel.app/",
-        title: "Star Wars Databank",
-        description:
-          "The Star Wars Databank API is a REST API based on the galatic saga Star Wars. You will have access to hundreds of characters, droids, species, locations, organizations, vehicles and more. The Star Wars Databank API is filled with the official information from the Databank.",
         images: [
           {
             url: "/images/preview.png",
