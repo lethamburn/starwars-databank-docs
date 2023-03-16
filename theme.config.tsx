@@ -3,6 +3,14 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import Image from "next/image";
 
 const config: DocsThemeConfig = {
+  head: (
+    <>
+      <meta
+        name="google-site-verification"
+        content="G5EB9uws-Q7chbOJMaqYuRgm0ATwUr47lbbxsi1aH00"
+      ></meta>
+    </>
+  ),
   useNextSeoProps() {
     return {
       titleTemplate: "Star Wars Databank - %s ",
