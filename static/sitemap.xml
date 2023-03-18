@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://starwars-databank.vercel.app/</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/about</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/info</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/character</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/character/schema</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/character/getall</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/character/single</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/creature</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/creature/schema</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/creature/getall</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/creature/single</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/droid</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/droid/schema</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/droid/getall</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/droid/single</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/location</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/location/schema</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/location/getall</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/location/single</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/organization</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/organization/schema</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/organization/getall</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/organization/single</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/specie</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/specie/schema</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/specie/getall</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/specie/single</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/vehicle</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/vehicle/schema</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/vehicle/getall</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starwars-databank.vercel.app/vehicle/single</loc>
+  <lastmod>2023-03-18T23:35:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
