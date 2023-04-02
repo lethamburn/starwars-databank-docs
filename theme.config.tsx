@@ -1,8 +1,11 @@
-import React from "react";
-import { DocsThemeConfig } from "nextra-theme-docs";
-import Image from "next/image";
+import React from "react"
+import {DocsThemeConfig} from "nextra-theme-docs"
+import Image from "next/image"
 
 const config: DocsThemeConfig = {
+  search: {
+    component: false,
+  },
   head: (
     <>
       <meta
@@ -28,7 +31,7 @@ const config: DocsThemeConfig = {
           },
         ],
       },
-    };
+    }
   },
   project: {
     link: "https://github.com/lethamburn/starwars-databank-docs",
@@ -51,17 +54,18 @@ const config: DocsThemeConfig = {
         height={24}
         priority
       />
-      <span style={{ marginLeft: ".5em", fontWeight: 800 }}>
+      <span style={{marginLeft: ".5em", fontWeight: 800}}>
         STAR WARS DATABANK
       </span>
     </>
   ),
   primaryHue: 39,
   banner: {
-    key: "2.0-release",
+    key: "2.5-release",
     text: (
       <a href="https://starwars-databank.vercel.app/about">
-        🎉 Star Wars Databank 2.0 is released. Read more →
+        🎉 Star Wars Databank 2.5 is released. The Mandalorian and The Bad Batch
+        new info added →
       </a>
     ),
   },
@@ -75,6 +79,6 @@ const config: DocsThemeConfig = {
       </span>
     ),
   },
-};
+}
 
-export default config;
+export default config
