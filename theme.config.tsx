@@ -16,8 +16,7 @@ const config: DocsThemeConfig = {
   ),
   useNextSeoProps() {
     return {
-      titleTemplate: "Star Wars Databank - %s ",
-      defaultTitle: "Star Wars Databank",
+      defaultTitle: "Star Wars Databank - API",
       description:
         "The Star Wars Databank API is a REST API based on the galatic saga Star Wars. You will have access to hundreds of characters, droids, species, locations, organizations, vehicles and more. The Star Wars Databank API is filled with the official information from the Databank.",
       canonical: "https://starwars-databank.vercel.app/",
