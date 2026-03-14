@@ -72,8 +72,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <span>
-        {new Date().getFullYear()} ©{" "}
-        <a href="https://github.com/lethamburn" target="_blank">
+        {new Date().getFullYear()} {"(c)"}{" "}
+        <a
+          href="https://github.com/lethamburn"
+          target="_blank"
+          rel="noreferrer"
+        >
           lethamburn
         </a>
       </span>
