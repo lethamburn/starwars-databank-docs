@@ -81,7 +81,7 @@ const Gallery = () => {
 
   useEffect(() => {
     fetch(
-      "https://starwars-databank-server.vercel.app/api/v1/characters?page=80&limit=1"
+      "https://starwars-databank-server.onrender.com/api/v1/characters?page=80&limit=1"
     )
       .then((res) => res.json())
       .then((res) => {

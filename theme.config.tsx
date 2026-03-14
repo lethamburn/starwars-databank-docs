@@ -63,9 +63,9 @@ const config: DocsThemeConfig = {
   banner: {
     key: "2.5-release",
     text: (
-      <a href="https://starwars-databank.vercel.app/about">
-        🎉 Star Wars Databank 2.5 is released. The Mandalorian and The Bad Batch
-        new info added →
+      <a href="https://starwars-databank-server.onrender.com/api/v1/">
+        API update: we&apos;ve migrated from Vercel to Render. New API base URL:
+        {" "}https://starwars-databank-server.onrender.com/api/v1/ ->
       </a>
     ),
   },
