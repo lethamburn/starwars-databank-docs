@@ -65,7 +65,7 @@ const config: DocsThemeConfig = {
     text: (
       <a href="https://starwars-databank-server.onrender.com/api/v1/">
         API update: we&apos;ve migrated from Vercel to Render. New API base URL:
-        {" "}https://starwars-databank-server.onrender.com/api/v1/ ->
+        {" "}https://starwars-databank-server.onrender.com/api/v1/ {"->"}
       </a>
     ),
   },
